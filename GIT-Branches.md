@@ -5,7 +5,7 @@
 
 ## Overview
 
-This document outlines the branching strategy for our web application project. The strategy ensures a streamlined workflow for development, bug fixing, feature experimentation, and documentation updates. 
+This document outlines the branching strategy for our web application project. The strategy ensures a streamlined workflow for development, bug fixing, feature experimentation, and documentation updates.
 
 ## Branch Types
 
@@ -44,6 +44,33 @@ This document outlines the branching strategy for our web application project. T
 - **Usage**: Branches off from `main` to address critical issues. After applying the fix, merge the hotfix branch back into both `main` and `developing`.
 - **Integration**: Ensures immediate fixes are applied to both production and development codebases.
 
+## Branch Structure
+
+Below is the visual representation of the branching strategy and how different branches relate to each other:
+
+```
+main
+|
+|-- developing
+|   |-- feature/user-authentication
+|   |-- bugfix/login-issue
+|   |-- release/v1.0.0
+|
+|-- hotfix/critical-issue
+|
+|-- experimental/features
+|
+|-- documentation
+```
+
+- **`main`**: The production branch where stable releases are deployed.
+- **`developing`**: The main branch for ongoing development and integration of features and fixes.
+- **`bugfixes`**: A branch dedicated to addressing and integrating bug fixes.
+- **`experimental/features`**: For experimental features and new developments not yet merged into `developing`.
+- **`documentation`**: For managing and updating project documentation.
+- **`release`**: Optional branch for finalizing releases before merging into `main`.
+- **`hotfix`**: Optional branch for urgent production fixes.
+
 ## Workflow
 
 1. **Development**:
@@ -77,4 +104,3 @@ This document outlines the branching strategy for our web application project. T
 - **Cleanup**: Periodically remove old branches that are no longer needed to keep the repository organized.
 
 ---
-
