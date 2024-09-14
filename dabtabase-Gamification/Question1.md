@@ -23,6 +23,8 @@ buy, but also what the products cost.**
 
 ## **your task is to solve this issue and design a new talble which do not face this same issue**
 
+#  **`SALES Table`**
+
 | CustomerID | Products | Price |
 |----------|----------|----------|
 | 1001 | Toothpaste | 50 |
@@ -33,10 +35,4 @@ buy, but also what the products cost.**
 | 1021 | Nail Polish | 25 |
 
 
-| Main Header 1   | Main Header 2   |
-|-----------------|-----------------|
-| **Nested Table** | Cell 2          |
-|                 |                 |
-|  | Nested Header 1 | Nested Header 2 |
-|  |-----------------|-----------------|
-|  | Nested Cell 1   | Nested Cell 2   |
+
