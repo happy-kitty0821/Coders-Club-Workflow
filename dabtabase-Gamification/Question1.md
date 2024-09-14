@@ -9,20 +9,19 @@ assume that customer 1001 moves out of the area and no longer is a
 customer. You don’t care what he’s bought in the past, because he’s not
 going to buy anything from your company again. You want to delete his
 row from the table. If you do so, however, you don’t just lose the fact
-that customer 1001 has bought laundry detergent; you also lose the fact
-that laundry detergent costs $12. This situation is called a deletion
-anomaly. In deleting one fact (that customer 1001 bought laundry
-detergent), you inadvertently delete another fact (that laundry detergent
-costs $12).
+that customer 1001 has bought  Toothpaste; you also lose the fact
+that laundry detergent costs Rss. 50. This situation is called a deletion
+anomaly. In deleting one fact (that customer 1001 bought Toothpaste), you inadvertently delete another fact (that the toothpaste
+costs Rs 50).
 You can use the same table to illustrate an insertion anomaly. For
 example, suppose you want to add stick deodorant to your product line
-at a price of $2. You can’t add this data to the SALES table until a
+at a price of Rs 200. You can’t add this data to the SALES table until a
 customer buys stick deodorant.
 The problem with the SALES table in the figure is that this table deals
 with more than one thing: It covers not just which products customers
-buy, but also what the products cost. To eliminate the anomalies, you can
-split the SALES table into two tables**
+buy, but also what the products cost.**
 
+## **your task is to solve this issue and design a new talble which do not face this same issue**
 
 | CustomerID | Products | Price |
 |----------|----------|----------|
