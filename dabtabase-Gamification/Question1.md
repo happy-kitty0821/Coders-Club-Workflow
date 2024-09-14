@@ -1,5 +1,7 @@
-| Header 1 | Header 2 | Header 3 |
+# **given the table named `SALES` the table has **
+
+| CustomerID | Products | Price |
 |----------|----------|----------|
-| Row 1, Col 1 | Row 1, Col 2 | Row 1, Col 3 |
-| Row 2, Col 1 | Row 2, Col 2 | Row 2, Col 3 |
-| Row 3, Col 1 | Row 3, Col 2 | Row 3, Col 3 |
+| 1001 | Toothpaste | 50 |
+| 1020 | Clorine Bleach | 450 |
+| 3121 | ToothBrush | 45 |
