@@ -37,8 +37,11 @@ CREATE TABLE SALES (
 
 ---
 ## **your task is to solve this issue and design a new talble which do not face this same issue**
-## **you are free to make as many table as you like**
-
+## **you are free to make as many table as you like, but when creating your solution use the following values **
+```sql 
+varchar = 255
+Decimal = 10,2
+```
 #  **`SALES Table`**
 
 | CustomerID | Products | Price |
@@ -51,4 +54,6 @@ CREATE TABLE SALES (
 | 1021 | Nail Polish | 25 |
 
 
+---
 
+#**All the Possible Solutions**
