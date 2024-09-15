@@ -37,7 +37,7 @@ CREATE TABLE SALES (
 
 ---
 ## **your task is to solve this issue and design a new talble which do not face this same issue**
-## **you are free to make as many table as you like, but when creating your solution use the following values **
+## **you are free to make as many table as you like, but when creating your solution use the following values:**
 ```sql 
 varchar = 255
 Decimal = 10,2
@@ -57,3 +57,29 @@ Decimal = 10,2
 ---
 
 #**All the Possible Solutions**
+
+## **By creating three tables**
+---
+``` SQL
+--product table
+CREATE TABLE Products (
+    ProductID INT PRIMARY KEY,
+    ProductName VARCHAR(255),
+    Price DECIMAL(10, 2)
+);
+
+CREATE TABLE Customers (
+    CustomerID INT PRIMARY KEY,
+    CustomerName VARCHAR(255)
+);
+
+CREATE TABLE Sales (
+    SaleID INT PRIMARY KEY AUTO_INCREMENT,
+    CustomerID INT,
+    ProductID INT,
+    Quantity INT,
+    FOREIGN KEY (CustomerID) REFERENCES Customers(CustomerID),
+    FOREIGN KEY (ProductID) REFERENCES Products(ProductID)
+);
+
+```
