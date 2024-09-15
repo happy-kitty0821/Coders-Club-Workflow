@@ -24,7 +24,8 @@ buy, but also what the products cost.**
 ---
 
 ### **`To create the SALES table the following query was used`**
-`sql
+```sql
+
 CREATE TABLE SALES (
     CustomerID INT,
     ProductName VARCHAR(255),
@@ -32,7 +33,7 @@ CREATE TABLE SALES (
     PRIMARY KEY (CustomerID, ProductName)
 );
 
-`
+```
 
 ---
 ## **your task is to solve this issue and design a new talble which do not face this same issue**
