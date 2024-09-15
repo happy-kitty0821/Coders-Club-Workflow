@@ -21,8 +21,20 @@ The problem with the SALES table in the figure is that this table deals
 with more than one thing: It covers not just which products customers
 buy, but also what the products cost.**
 
-### `Structure of the **SALES** table`
+---
 
+### **`To create the SALES table the following query was used`**
+`sql
+CREATE TABLE SALES (
+    CustomerID INT,
+    ProductName VARCHAR(255),
+    Price DECIMAL(10, 2),
+    PRIMARY KEY (CustomerID, ProductName)
+);
+
+`
+
+---
 ## **your task is to solve this issue and design a new talble which do not face this same issue**
 ## **you are free to make as many table as you like**
 
