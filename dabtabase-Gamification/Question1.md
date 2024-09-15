@@ -21,7 +21,10 @@ The problem with the SALES table in the figure is that this table deals
 with more than one thing: It covers not just which products customers
 buy, but also what the products cost.**
 
+### `Structure of the **SALES** table`
+
 ## **your task is to solve this issue and design a new talble which do not face this same issue**
+## **you are free to make as many table as you like**
 
 #  **`SALES Table`**
 
