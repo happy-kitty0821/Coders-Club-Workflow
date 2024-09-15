@@ -94,12 +94,12 @@ create table products (
     Price DECIMAL(10, 2)
 );
 
-CREATE TABLE Customers (
+create table Customers (
     CustomerID INT PRIMARY KEY,
     CustomerName VARCHAR(255)
 );
 
-CREATE TABLE Sales (
+create table Sales (
     SaleID INT PRIMARY KEY AUTO_INCREMENT,
     CustomerID INT,
     ProductID INT,
