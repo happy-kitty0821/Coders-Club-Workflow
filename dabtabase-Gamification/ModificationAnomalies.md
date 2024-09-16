@@ -52,6 +52,7 @@ CREATE TABLE SALES (
 ---
 ## **your task is to solve this issue and design a new talble which do not face this same issue**
 ## **you are free to make as many table as you like, but when creating your solution use the following values:**
+## **your solution should show all the appopriate `Primary Key` and `Foreign Key` relations**
 ```sql 
 varchar = 255
 Decimal = 10,2
