@@ -1,5 +1,19 @@
 # This SALES table leads to modification anomalies.
 
+#  **`SALES Table`**
+
+| CustomerID | Products | Price |
+|----------|----------|----------|
+| 1001 | Toothpaste | 50 |
+| 1020 | Clorine Bleach | 450 |
+| 3121 | ToothBrush | 45 |
+| 1012 | Laundry Detergent | 100 |
+| 1011 | Detol Soap Bar | 80 |
+| 1021 | Nail Polish | 25 |
+
+
+---
+
 ## **we are given the table named `SALES` the table has three columns named CustomerID, Products and the Price of the Products, now lets us suppose the following:**
 
 **our company sells household cleaning and
@@ -42,19 +56,7 @@ CREATE TABLE SALES (
 varchar = 255
 Decimal = 10,2
 ```
-#  **`SALES Table`**
 
-| CustomerID | Products | Price |
-|----------|----------|----------|
-| 1001 | Toothpaste | 50 |
-| 1020 | Clorine Bleach | 450 |
-| 3121 | ToothBrush | 45 |
-| 1012 | Laundry Detergent | 100 |
-| 1011 | Detol Soap Bar | 80 |
-| 1021 | Nail Polish | 25 |
-
-
----
 
 #**All the Possible Solutions**
 
