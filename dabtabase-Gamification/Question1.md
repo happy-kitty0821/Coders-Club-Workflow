@@ -58,7 +58,7 @@ Decimal = 10,2
 ```
 
 
-#**All the Possible Solutions**
+# **All the Possible Solutions**
 
 ## **By creating three tables**
 ---
