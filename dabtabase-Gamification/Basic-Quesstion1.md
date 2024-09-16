@@ -1,6 +1,10 @@
 # basic SQL question
-## **we are given the following employee table of a newly established company**
-## **The `employee` table has the records of 30 employees:**
+### **Introduction:**
+
+In this exercise, we are working with an employee database that stores records of 30 employees of a newly established company. The `employee` table contains essential details such as the employee's first and last name, department, salary, and the date they were hired. Using this table, we will perform various SQL queries to explore different aspects of data manipulation and retrieval, ranging from simple selection queries to more complex operations involving filtering, grouping, and aggregation.
+
+The goal of this exercise is to understand how to effectively use SQL commands such as `SELECT`, `WHERE`, `GROUP BY`, `ORDER BY`, and aggregate functions like `SUM`, `AVG`, and `COUNT`. We will also explore how to update and delete records in the database. The following questions are designed to help you practice these fundamental SQL concepts by interacting with the `employee` table in meaningful ways.
+
 
 | employee_id | first_name | last_name | department | salary   | hire_date   |
 |-------------|------------|-----------|------------|----------|-------------|
@@ -58,7 +62,7 @@ CREATE TABLE employee (
 );
 ```
 --- 
-# `questions` with their splutions
+# `questions` with their solutions
 
 ### 1. Retrieve all employee details.
 ```sql
