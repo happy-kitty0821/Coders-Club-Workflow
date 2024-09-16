@@ -57,3 +57,75 @@ CREATE TABLE employee (
     hire_date DATE
 );
 ```
+--- 
+# `questions` with their splutions
+
+### 1. Retrieve all employee details.
+```sql
+SELECT * FROM employee;
+```
+
+### 2. Get the first name, last name, and salary of all employees in the IT department.
+```sql
+SELECT first_name, last_name, salary 
+FROM employee 
+WHERE department = 'IT';
+```
+
+### 3. Find the employees hired after '2024-01-01'.
+```sql
+SELECT first_name, last_name, hire_date 
+FROM employee 
+WHERE hire_date > '2024-01-01';
+```
+
+### 4. List the top 5 highest paid employees.
+```sql
+SELECT first_name, last_name, salary 
+FROM employee 
+ORDER BY salary DESC 
+LIMIT 5;
+```
+
+### 5. Count the number of employees in each department.
+```sql
+SELECT department, COUNT(*) AS employee_count 
+FROM employee 
+GROUP BY department;
+```
+
+### 6. Calculate the average salary of employees in the Finance department.
+```sql
+SELECT AVG(salary) AS avg_salary 
+FROM employee 
+WHERE department = 'Finance';
+```
+
+### 7. Find the total salary paid to employees in the Sales department.
+```sql
+SELECT SUM(salary) AS total_salary 
+FROM employee 
+WHERE department = 'Sales';
+```
+
+### 8. Update the salary of employees in the HR department, giving them a 10% raise.
+```sql
+UPDATE employee 
+SET salary = salary * 1.10 
+WHERE department = 'HR';
+```
+
+### 9. Delete all employees who were hired before '2023-06-01'.
+```sql
+DELETE FROM employee 
+WHERE hire_date < '2023-06-01';
+```
+
+### 10. Find the employee(s) with the highest salary.
+```sql
+SELECT first_name, last_name, salary 
+FROM employee 
+WHERE salary = (SELECT MAX(salary) FROM employee);
+```
+
+These questions cover common SQL concepts such as `SELECT`, `WHERE`, `GROUP BY`, `ORDER BY`, `JOIN`, `UPDATE`, and `DELETE`, focusing on operations commonly used in querying an `employee` table.
