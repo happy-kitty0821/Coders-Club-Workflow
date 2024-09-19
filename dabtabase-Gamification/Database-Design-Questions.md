@@ -1,6 +1,5 @@
----
+# Real-World Database Design Questions:
 
-### Real-World Database Design Questions:
 #### 1. **E-Commerce System**
 **Scenario:** You are tasked with designing a database for an e-commerce platform that sells products online. The platform needs to track customers, orders, payments, and the inventory of products.
 
