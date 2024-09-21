@@ -1,5 +1,3 @@
----
-
 ### **Scenario 1 E-Commerce Store**
 
 **Overview:**  
