@@ -1,5 +1,3 @@
-Got it! Here are **four scenarios** that prompt participants to **create an ERD and the corresponding database schemas** while handling **many-to-many relationships**. These questions will encourage contestants to think critically about structuring their databases without needing to focus on normalization.
-
 ---
 
 ### **Scenario 1: E-Commerce Store**
@@ -74,4 +72,4 @@ A gym needs a system to manage members, fitness classes, and trainers. Members c
 
 ---
 
-For each scenario, the contestants must design a **comprehensive ERD** that handles all the relationships between the entities and then provide a **database schema** outlining the tables and their relationships. This will encourage them to think about real-world systems and manage many-to-many relationships without normalizing the database.
+For each scenario, the contestants must design a **comprehensive ERD** that handles all the relationships between the entities and then provide a **database schema** outlining the tables and their relationships. 
