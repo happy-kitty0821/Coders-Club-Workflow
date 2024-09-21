@@ -1,6 +1,6 @@
 ---
 
-### **Scenario 1: E-Commerce Store**
+### **Scenario 1 E-Commerce Store**
 
 **Overview:**  
 Design a database system for an online store that sells various products. The store allows customers to make multiple purchases, and suppliers provide the products. Customers can write reviews for the products they buy, and each review can include ratings.
