@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SQL Query Executor</title>
+</head>
+<body>
+    <h1>MySQL Query Executor</h1>
+
+    <form method="POST">
+        <label for="query">Enter your MySQL query:</label><br>
+        <textarea id="query" name="query" rows="5" cols="50">{{ query }}</textarea><br><br>
+        <button type="submit">Execute</button>
+    </form>
+
+    {% if result %}
+    <h2>Query Result:</h2>
+    <table border="1">
+        {% for row in result %}
+        <tr>
+            {% for column in row %}
+            <td>{{ column }}</td>
+            {% endfor %}
+        </tr>
+        {% endfor %}
+    </table>
+    {% endif %}
+</body>
+</html>
